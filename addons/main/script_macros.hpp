@@ -2,6 +2,11 @@
 #include "\x\cba\addons\main\script_macros_common.hpp"
 #include "\x\cba\addons\xeh\script_xeh.hpp"
 
+// nextcba
+#ifndef COMPILESCRIPT_FILE
+#define COMPILESCRIPT_FILE(var1) compileScript ['PATHTO_SYS(PREFIX,COMPONENT_F,var1)']
+#endif
+
 // Default versioning level
 #define DEFAULT_VERSIONING_LEVEL 2
 
