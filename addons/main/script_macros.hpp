@@ -3,8 +3,8 @@
 #include "\x\cba\addons\xeh\script_xeh.hpp"
 
 // nextcba
-#ifndef COMPILESCRIPT_FILE
-#define COMPILESCRIPT_FILE(var1) compileScript ['PATHTO_SYS(PREFIX,COMPONENT_F,var1)']
+#ifndef COMPILE_SCRIPT
+#define COMPILE_SCRIPT(var1) compileScript ['PATHTO_SYS(PREFIX,COMPONENT_F,var1)']
 #endif
 
 // Default versioning level
