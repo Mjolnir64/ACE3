@@ -4,7 +4,7 @@ class CfgCloudlets {
     // - Smoke hand grenades --------------------------------------------------
     class ACE_SmokeBaseLarge: Default {
         colorCoef[] = {"colorR", "colorG", "colorB", "colorA"};
-        sizeCoef = 1;
+        sizeCoef = 0.7;
         position[] = {0, 0, 0};
         interval = 0.05;
         circleRadius = 0;
